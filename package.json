@@ -4,7 +4,7 @@
   "description": "Troisième projet du parcours Développeur Front-End d'OpenClassrooms. L'objectif de ce projet est de dynamisez une page web avec des animations CSS.",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --watch --style compressed ./src/sass/main.scss:./src/css/style.css"
+    "sass": "sass --watch --style compressed ./src/sass/main.scss:./src/style/style.css"
   },
   "repository": {
     "type": "git",

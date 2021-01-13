@@ -20,13 +20,13 @@ $shape-large-component-radius: 15px;
 
 /* Color */
 
-$color-purple: #9356DC;
-$colo-light-purple: #F4EDFE;
+$color-primary: #9356DC;
+$colo-light-primary: #F4EDFE;
 
-$color-pink: #FF79DA;
+$color-secondary: #FF79DA;
 
-$color-dark-green: #288364;
-$color-green: #99E2D0;
+$color-dark-tertiary: #288364;
+$color-tertiary: #99E2D0;
 
 $color-black: #000000;
 $color-light-black: #353535;
@@ -45,8 +45,8 @@ $color-white: #FFFFFF;
     width: 90vw;
 
     @media screen and (min-width: $breakpoint-desktop) {
-        padding: $top 10vw $bottom 10vw;
-        width: 80vw;
+        padding: $top 7.5vw $bottom 7.5vw;
+        width: 85vw;
     }
 }
 
@@ -110,9 +110,23 @@ a {
     &__wrapper {
         display: flex;
         flex-direction: row;
+        align-items: center;
         justify-content: center;
         padding: 1rem;
+        position: relative;
     }
+    
+    &__wrapper-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 1rem;
+    }
+    
+    /*.fa-arrow-left {
+        font-size: 1.75rem;
+    }*/
 }
 
 
